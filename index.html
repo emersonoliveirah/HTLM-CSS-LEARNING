@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML + CSS LEARNING</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <input id="close-menu" class="close-menu" type="checkbox"  aria-label="Close menu" role="button">
+
+    <label class="close-menu-label" for="close-menu" title="close-menu"></label>
+
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+            <h1 onclick="getElementById('close-menu').checked = false">
+                <a href="#home">LOGO</a>
+            </h1>
+
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false">
+                    <li><a href="#intro">intro</a></li>
+                    <li><a href="#top">top jobs</a></li>
+                    <li><a href="#gallery">gallery</a></li>
+                    <li><a href="#best-paying">best paying jobs</a></li>
+                    <li><a href="#top-salarys">top salarys</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+    <div class="menu-spacing"></div>
+
+    <section id="home" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>Best Jobs</h2>
+                <p>No single job suits all of us, but many of the best ones have a few attributes in common: They pay well, challenge us year after year, match our talents and skills, aren't too stressful, offer room to advance throughout our careers, and provide a satisfying work-life balance. Job seekers also often consider whether a position is in demand.</p>
+            </div>
+            <div class="intro-img">
+                <img src="javascript-not-optimized.svg"
+                    alt="Dois homens e uma mulher segurango as logos do CSS, JS e HTML">
+            </div>
+        </div>
+    </section>
+
+    <section id="intro" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2>Top Jobs</h2>
+            <p>U.S. News Best Jobs Rankings
+                Our Best Job rankings include several different industries, so you can find the best job for you in the health care, business or technology industry, for example. If you’re seeking a high salary, the Best-Paying Jobs ranking list will help you search jobs that pay very well. If you're not sure which career path to take, start with our overall ranking of the 100 Best Jobs.</p>
+            <p>WOur Best Job rankings include several different industries, so you can find the best job for you in the health care, business or technology industry, for example. If you’re seeking a high salary, the Best-Paying Jobs ranking list will help you search jobs that pay very well.</p>
+        </div>
+    </section>
+
+    <section id="top3" class="grid-one main-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Top 3 Jobs</h2>
+            <p class="grid-description">Here are some recent research:</p>
+            <div class="grid">
+                <article>
+                    <h3>Software Developer</h3>
+                    <p>Software developers invent the technologies we sometimes take for granted. For instance, that app that rings, sings or buzzes you out of a deep sleep every morning? A software developer helped design that. And when you roll into the office and turn on your computer, clicking and scrolling through social media, music and your personal calendar – software developers had a big hand in shaping those, too.</p>
+                </article>
+                <article>
+                    <h3>Nurse Practitioner</h3>
+                    <p>Nurse practitioners are registered nurses with additional education. Extra schooling allows these professionals to take patient histories, perform physical exams, order labs, analyze lab results, prescribe medicines, authorize treatments and educate patients and families on continued care.</p>
+                </article>
+                <article>
+                    <h3>Medical and Health Services Manager</h3>
+                    <p>Medical and health services managers are the planners, directors and coordinators who work behind the scenes to keep hospitals, nursing homes, group practices and other health care facilities running efficiently. In short, they are super-organized professionals.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="grid-one white-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Gallery</h2>
+            <p class="grid-description">Here are some great pictures.</p>
+
+            <div class="grid">
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360" alt="random image from unsplash" />
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360??!" alt="random image from unsplash" />
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?!!" alt="random image from unsplash" />
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360??," alt="random image from unsplash" />
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360??!?" alt="random image from unsplash" />
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360??!!" alt="random image from unsplash" />
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="best-paying" class="grid-one main-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Best Paying Jobs</h2>
+            <p class="grid-description">Here are some examples.</p>
+            <div class="grid">
+                <article>
+                    <h3>Anesthesiologist</h3>
+                    <p>Anesthesiologists are the physicians responsible for administering general or regional anesthesia, which allows surgeons and other physicians to complete invasive procedures with little to no discomfort to the patient.</p>
+                </article>
+                <article>
+                    <h3>Oral and Maxillofacial Surgeon</h3>
+                    <p>Oral and maxillofacial surgeons perform surgeries on the face, mouth and jaw. These professionals are dentists with at least four years of additional surgery training, so they can do everything from treating facial traumas to fixing cleft lips. They can diagnose and treat patients with head, neck and oral cancer.</p>
+                </article>
+                <article>
+                    <h3>Obstetrician and Gynecologist</h3>
+                    <p>Obstetricians and gynecologists bring new life into the world and care for the spectrum of women's reproductive health. Obstetrics is the surgical field that deals in childbirth, whereas gynecology is the field of medicine concerned with women's health, especially their reproductive health.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="top-salarys" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2>Top 3 Salarys</h2>
+            <p>If a good salary is important to you, check out our list of the highest-paying jobs. 
+            </p>
+            <div class="responsive-table">
+                <table>
+                    <caption>Median Salary by job</caption>
+
+                    <thead>
+                        <tr>
+                            <th>Anesthesiologist</th>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>$208,000</td>
+                        </tr>
+                    </tbody>
+
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                        </tr>
+                    </tfoot>
+                    
+                    <thead>
+                        <tr>
+                            <th>Oral and Maxillofacial Surgeon</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>$208,000</td>
+                        </tr>
+                    </tbody>
+
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                        </tr>
+                    </tfoot>
+
+                    <thead>
+                        <tr>
+                            <th>Obstetrician and Gynecologist</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>$208,000</td>
+                        </tr>
+                    </tbody>
+
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                        </tr>
+                    </tfoot>
+                    
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>Contact us</h2>
+                <p>Fill the form bellow to give us information that would let us contact you, we're glad that you choose us, we're not gonna let you dissapointed.</p>
+            </div>
+            <div class="intro-img">
+                <img src="contact.svg"
+                    alt="Uma mulher segurando uma carta, um celular">
+            </div>
+
+            <div class="contact-form">
+                <fieldset class="form-grid">
+                    <legend>Contact form</legend>
+
+                    <div class="form-group">
+                        <label for="first-name">First Name</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Your name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Your last name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="text" name="email" id="email" placeholder="Your e-mail">
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="message">Message</label>
+                        <textarea placeholder="Your message" name="message" id="message" cols="30" rows="10"></textarea>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <button type="submit">
+                            Send message
+                        </button>
+                    </div>
+
+
+                </fieldset>
+            </div>
+        </div>
+        
+    </section>
+
+    <footer id="footer" class="footer white-bg">
+        <p><a rel="nofollow" target="_blank" href="https://www.linkedin.com/in/emerson-oliveira-137615141/">Made with <span class="heart">♥</span> (and coding) by Emerson Oliveira.</a></p>
+    </footer>
+
+    <a class="back-to-top" href="#">⇧</a>
+
+</body>
+
+</html>
